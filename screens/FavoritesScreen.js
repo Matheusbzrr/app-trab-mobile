@@ -99,7 +99,14 @@ const FavoritesScreen = ({ navigation }) => {
       setLoading(false);
     }
   }, []);
-  useFocusEffect(loadFavorites);
+  useFocusEffect(
+    useCallback(() => {
+      const fetchFavorites = async () => {
+        await loadFavorites();
+      };
+      fetchFavorites();
+    }, [loadFavorites])
+  );
 
   const removeFavorite = async (restaurantId) => {
     try {

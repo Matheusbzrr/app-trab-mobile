@@ -7,7 +7,8 @@ import DetailsScreen from "./screens/DetailsScreen";
 import FavoritesScreen from "./screens/FavoritesScreen";
 import { Provider as PaperProvider } from "react-native-paper";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
-import SugestaoIA from "./screens/SugestaoIA"; // Importando a nova tela de sugestão de IA
+import SugestaoIA from "./screens/SugestaoIA";
+import NewsLatter from "./screens/NewsLatter";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -25,7 +26,9 @@ function TabNavigator() {
           } else if (route.name === "Favoritos") {
             iconName = "favorite";
           } else if (route.name === "SugestaoIA") {
-            iconName = "restaurant-menu"; // ícone para a nova aba
+            iconName = "lightbulb";
+          } else if (route.name === "NewsLatter") {
+            iconName = "article";
           }
 
           return <MaterialIcons name={iconName} size={size} color={color} />;
@@ -37,6 +40,7 @@ function TabNavigator() {
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Favoritos" component={FavoritesScreen} />
       <Tab.Screen name="SugestaoIA" component={SugestaoIA} />
+      <Tab.Screen name="NewsLatter" component={NewsLatter} />
     </Tab.Navigator>
   );
 }

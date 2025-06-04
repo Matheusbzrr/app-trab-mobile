@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import {
   View,
-  TextInput, // Usando o TextInput do core, mas poderia ser o do Paper
+  TextInput,
   FlatList,
   Keyboard,
   Platform,
