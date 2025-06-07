@@ -14,6 +14,9 @@
     "ios": {
       "supportsTablet": true
     },
+    "infoPlist": {
+      "NSLocationWhenInUseUsageDescription": "Este aplicativo usa sua localização para encontrar restaurantes próximos e fornecer direções."
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
