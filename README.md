@@ -77,4 +77,3 @@ Isso iniciará o Metro Bundler e abrirá uma página no seu navegador com um QR 
 
 ---
 
-Feito com ❤️ por [Seu Nome/Time]
