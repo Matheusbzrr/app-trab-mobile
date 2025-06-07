@@ -4,8 +4,6 @@ Bem-vindo ao FoodFinder, o seu assistente pessoal para descobrir restaurantes! C
 
 Este projeto foi desenvolvido com **React Native** e **Expo**, proporcionando uma experiência de desenvolvimento ágil e uma aplicação multiplataforma (iOS e Android) a partir de uma única base de código.
 
-![Demo do App](URL_PARA_UM_GIF_OU_IMAGEM_DO_SEU_APP_AQUI) ## ✨ Funcionalidades
-
 -   **🔎 Busca por Cidade:** Encontre restaurantes simplesmente digitando o nome da cidade desejada.
 -   **⭐ Favoritos:** Salve seus restaurantes preferidos para acessá-los facilmente quando quiser.
 -   **🤖 Sugestão com IA:** Não sabe onde comer? Peça uma recomendação à nossa inteligência artificial.
